@@ -7,13 +7,38 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "css:scss": "node-sass --output-style compressed -o dist src/scss",
     "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
-    "build:css": "npm run css:scss && npm run css:autoprefixer"
+    "build:css": "npm run css:scss && npm run css:autoprefixer",
+    "watch:css": "onchange \"src/scss\" -- npm run build:css",
+    "serve": "browser-sync start --server \"dist\" --files \"dist\"",
+    "watch": "run-p serve watch:*",
+    "build": "run-p build:*",
+    "build:html": "posthtml -c posthtml.json",
+    "watch:html": "onchange \"src/views\" -- npm run build:html"
   },
   "author": "Shayne Fawcett",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
     "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.27.7",
+    "eslint": "^8.7.0",
+    "eslint-loader": "^4.0.2",
+    "htmlnano": "^2.0.0",
+    "imagemin-cli": "^7.0.0",
     "node-sass": "^7.0.1",
-    "postcss-cli": "^9.1.0"
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "postcss-cli": "^9.1.0",
+    "posthtml": "^0.16.5",
+    "posthtml-cli": "^0.10.0",
+    "posthtml-modules": "^0.8.0",
+    "stylelint": "^14.2.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lite-youtube-embed": "^0.2.0",
+    "uglify-js": "^3.14.5"
   }
 }
