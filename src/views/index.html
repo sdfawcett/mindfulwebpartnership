@@ -732,19 +732,19 @@
 								</div>
 								<!-- Media -->
 								<div class="split-item-content">
-									<form name="contact" data-netlify="true">
+									<form name="contact" method="POST" data-netlify="true">
 										<fieldset>
 											<div class="mb-12">
 												<label class="form-label screen-reader" for="name">Full name</label>
-												<input id="name" class="form-input" type="name" placeholder="First name" required>
+												<input id="name" name="name" class="form-input" type="text" placeholder="First name" required>
 											</div>
 											<div class="mb-12">
 												<label class="form-label screen-reader" for="email">Email</label>
-												<input id="email" class="form-input" type="email" placeholder="Email" required>
+												<input id="email" name="email" class="form-input" type="email" placeholder="Email" required>
 											</div>
 											<div class="mb-12">
 												<label class="form-label screen-reader" for="message-body">Your Message</label>
-												<textarea class="form-input" id="message-body" placeholder="Tell us about your idea" rows="4" required></textarea>
+												<textarea class="form-input" name="message-body" id="message-body" placeholder="Tell us about your idea" rows="4" required></textarea>
 											</div>
 											<div class="mt-24 mb-32">
 												<button type="submit" class="button button-block">
