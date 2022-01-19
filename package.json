@@ -1,0 +1,19 @@
+{
+  "name": "mindfulwebpartnership",
+  "version": "1.0.0",
+  "description": "static website for Mindful Web Partnership, LLC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:scss": "node-sass --output-style compressed -o dist src/scss",
+    "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
+    "build:css": "npm run css:scss && npm run css:autoprefixer"
+  },
+  "author": "Shayne Fawcett",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "node-sass": "^7.0.1",
+    "postcss-cli": "^9.1.0"
+  }
+}
