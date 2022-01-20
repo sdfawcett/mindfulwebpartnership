@@ -129,3 +129,132 @@ lite-youtube.lyt-activated > .lty-playbtn {
     top: 0;
     left: 0;
   }
+
+  /* lazy load embedded youtube video without framework */
+
+  .embed-youtube {
+    background-color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.embed-youtube img {
+    width: 100%;
+    top: -16.84%;
+    left: 0;
+    opacity: 0.7;
+}
+.embed-youtube .embed-youtube-play {
+    width: 68px;
+    height: 48px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.embed-youtube .embed-youtube-play:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.embed-youtube img,
+.embed-youtube .embed-youtube-play {
+    cursor: pointer;
+}
+.embed-youtube img,
+.embed-youtube iframe,
+.embed-youtube .embed-youtube-play,
+.embed-youtube .embed-youtube-play:before {
+    position: absolute;
+}
+.embed-youtube .embed-youtube-play,
+.embed-youtube .embed-youtube-play:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.embed-youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.embed-youtube .embed-youtube-play:hover {
+    background-color: #f00;
+}
+
+/* video-grid 
+
+.video-grid {
+  margin: 1rem;
+}
+
+.video-grid .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.video-grid .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.video-grid .blue-column {
+  background-color: blue;
+  height: 100px;
+}
+
+.video-grid .green-column {
+  background-color: green;
+  height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .video-grid .column {
+    flex: 1
+  }
+
+  .video-grid .double-column {
+    flex: 2
+  }
+}
+*/
+
+.video-grid-row .leftside img {
+  width: 100%;
+  height: 100%;
+}
+.video-grid-row .rightside img {
+  width: 100%;
+  height: 100%;
+}
+.video-grid-row .leftside, .video-grid-row .rightside {
+  color: rgba(255,255,255,.4);
+  padding: 2%;
+}
+
+@media ( min-width : 800px ){
+	.video-grid-row {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+	}
+  .video-grid-row .leftside,
+  .video-grid-row .rightside {
+    -webkit-flex: 1;
+    flex: 1;
+    background: none;
+  }
+}
+
+

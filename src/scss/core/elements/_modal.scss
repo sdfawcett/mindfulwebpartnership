@@ -75,6 +75,7 @@
 	padding: 0;
 	cursor: pointer;
 	position: absolute;
+	z-index: 999;
 	right: $modal-close-position;
 	top: $modal-close-position;
 	width: $modal-close-icon--size;
@@ -86,12 +87,12 @@
 		display: block;
 		position: absolute;
 		top: 50%;
-		left: 50%;
+		left: 20%;
 		margin-top: -($modal-close-icon--thickness / 2);
 		margin-left: -($modal-close-icon--size / 2);
 		width: $modal-close-icon--size;
 		height: $modal-close-icon--thickness;
-		background: color-icon(modal);
+		background: #000;
 		border-radius: $modal-close-icon--radius;
 	}
 

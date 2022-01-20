@@ -47,7 +47,7 @@
         content: '';
         display: block;
         position: absolute;
-        top: (get-line-height(xxs) - $timeline-bullet--size) / 2;
+        top: -113px;
         left: -($timeline-bullet--distance + $timeline-bullet--size);
         width: $timeline-bullet--size;
         height: $timeline-bullet--size;

@@ -1,9 +1,9 @@
 // Timeline (core/elements/_timeline.scss)
-$timeline-item--padding-v__mobile: 		48px;		// timeline item, top and bottom padding (mobile)
+$timeline-item--padding-v__mobile: 		58px;		// timeline item, top and bottom padding (mobile)
 $timeline-item--padding-v__desktop: 	64px;		// timeline item, top and bottom padding (desktop)
 $timeline-bullet--size: 			    8px;		// timeline bullet size
 $timeline-bullet--radius: 			    50%;		// timeline bullet radius
-$timeline-bullet--distance: 		    24px;		// distance from bullet to item (avoid null, prefer 0)
+$timeline-bullet--distance: 		    34px;		// distance from bullet to item (avoid null, prefer 0)
 $timeline-line--width: 			        2px;		// timeline line width
 $timeline-line--offset: 			    4px;		// distance from line to bullet (avoid null, prefer 0)
 

@@ -456,7 +456,7 @@ class LiteYTEmbed extends HTMLElement {
       iframeEl.allowFullscreen = true;
       // AFAIK, the encoding here isn't necessary for XSS, but we'll do it only because this is a URL
       // https://stackoverflow.com/q/64959723/89484
-      iframeEl.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.videoId)}?${params.toString()}`;
+      iframeEl.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.videoId)}?${params.toString()}?rel=0&enablejsapi=1`;
       this.append(iframeEl);
 
       // Set focus for a11y
