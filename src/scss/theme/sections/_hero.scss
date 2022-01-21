@@ -6,8 +6,8 @@
     align-items: flex-end;
 }
 
-.hero .split-wrap .split-item .split-item-content .button {
-    margin-bottom: 2rem;
+.hero .split-wrap .split-item {
+    margin-bottom:4rem;
 }
 
 .hero.clients ul {
@@ -38,12 +38,17 @@
     
     .hero .split-wrap .split-item {
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .hero .split-wrap .split-item .split-item-content {
         margin-right: 0;
         text-align: center;
         width: 80%;
+    }
+
+    .hero .split-wrap .split-item .split-item-content .button {
+        margin-bottom: 2rem;
     }
 }
 
