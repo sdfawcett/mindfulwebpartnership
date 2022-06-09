@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://mindfulwebpartnership.com/)
+<img src="https://mindfulwebpartnership.com/images/mwp-open-graph-thumbnail.webp">
 
 This is a [npm](https://www.npmjs.com/) project 
 
@@ -55,4 +55,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: https://mindfulwebpartnership.com/images/mwp-open-graph-thumbnail.png
+[product-screenshot]: https://mindfulwebpartnership.com/images/mwp-open-graph-thumbnail.webp
