@@ -17,17 +17,6 @@
   </p>
 </div>
 
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-<img src="https://mindfulwebpartnership.com/images/mwp-open-graph-thumbnail.webp">
-
-This is a [npm](https://www.npmjs.com/) project 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
