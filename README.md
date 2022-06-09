@@ -7,10 +7,10 @@
     <img src="https://mindfulwebpartnership.com/images/mwp-logo.png" alt="Logo" width="65" height="65">
   </a>
 
-<h3 align="center">Next.js x Shopify | Bomb Botanicals</h3>
+<h3 align="center">Mindful Web Partnership, LLC</h3>
 
   <p align="center">
-    An eCommerce storefront built with Next.js, Tailwind CSS, GraphQL, and Shopify Storefront API.
+    A site built for speed, simplicity, and semantics with HTML, CSS, and vanilla JavaScript. Uses Sass for CSS tooling.
     <br />
     <br />
     <a href="https://mindfulwebpartnership.com/">View Deployed Site</a>
@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://mindfulwebpartnership.com/)
 
 This is a [npm](https://www.npmjs.com/) project 
 
@@ -55,4 +55,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: https://www.mindfulwebpartnership.com/mwp-open-graph-thumbnail.webp
+[product-screenshot]: https://www.mindfulwebpartnership.com/images/mwp-open-graph-thumbnail.webp
