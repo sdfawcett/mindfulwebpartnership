@@ -55,4 +55,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: https://www.mindfulwebpartnership.com/images/mwp-open-graph-thumbnail.webp
+[product-screenshot]: https://mindfulwebpartnership.com/images/mwp-open-graph-thumbnail.webp
